@@ -1,7 +1,8 @@
 # Site settings
 title: angular_init (ngi)
 email: frontendcollisionblog@gmail.com
-url: http://joshbeam.github.io/angular_init
+url: http://joshbeam.github.io
+baseurl: /angular_init
 description: "angular_init is the simple AngularJS template generator"
 
 # Footer settings
