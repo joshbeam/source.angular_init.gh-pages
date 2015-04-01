@@ -3,3 +3,9 @@ pre {
 	overflow: scroll;
 	white-space: nowrap;
 }
+
+h2 {
+	@include media-query(1200px) {	// same as bootstrap col break-point (fix this)
+		padding-top: 1em;
+	}
+}
