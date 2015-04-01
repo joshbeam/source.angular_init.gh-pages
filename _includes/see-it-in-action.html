@@ -1,0 +1,31 @@
+    <!-- See It In Action Section -->
+    <section class="container content-section text-center">
+        <div class="row">
+            <div id="see-it-in-action" class="col-lg-8 col-lg-offset-2">
+                <h1>See it in action</h1>
+                <img src="/img/ngi_example.gif" />
+                <br><br><br><br>
+{% highlight javascript %}
+/*
+*
+*                           OUTPUT ~/MyAwesomeApp/my.controller.js
+*
+**/
+
+;(function(app) {
+
+    'use strict';
+
+    app.controller('MyController',MyController);
+
+    MyAwesomeController.$inject = ['$route', '$scope'];
+
+    function MyAwesomeController($route, $scope) {
+
+    }
+
+})(angular.module('myModule'));
+{% endhighlight %}
+            </div>
+        </div>
+    </section>

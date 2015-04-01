@@ -1,0 +1,16 @@
+---
+# necessary front-matter
+---
+@charset "utf-8";
+
+$link-color: #219ab3;
+$primary-dark: #000000;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+		"mixins",
+		"base",
+		"syntax-highlighting",
+        "bootstrap.min",
+        "grayscale"
+;
