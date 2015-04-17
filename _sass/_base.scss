@@ -1,11 +1,47 @@
+body,
+html {
+  font-family: $font-family;
+  font-size: $base-font-size;
+}
+
+body * {
+  box-sizing: border-box;
+  color: $dark-gray;
+}
+
+a {
+  text-decoration: none;
+  color: $brand;
+}
+
+code {
+  background: $extra-light-gray;
+  padding: .25rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 h2 {
-  @include media-query(1200px) {  // same as bootstrap col break-point (fix this)
-    padding-top: 1em;
-  }
+  font-size: 2rem;
+}
+
+p {
+  line-height: 3rem;
 }
 
 pre {
+  font-size: 1.5rem;
 	text-align: left;
 	overflow: scroll;
-	white-space: nowrap;
+
+  padding: 1rem;
+  @include border-radius(10px);
+  width: 80%;
+  display: block;
+  margin: 4rem auto;
+
+  background: $extra-light-gray;
+  color: $dark-gray;
 }

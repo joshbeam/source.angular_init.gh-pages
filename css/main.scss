@@ -1,17 +1,23 @@
 ---
-# necessary front-matter
 ---
 @charset "utf-8";
 
-$link-color: #219ab3;
-$primary-dark: #000000;
+$font-family: Lora, helvetica;
+$base-font-size: 1rem;
+
+$extra-light-gray: #eee;
+$light-gray: #ccc;
+$medium-gray: #666;
+$dark-gray: #333;
+$brand: #4d8afa;
+$brand-comp: #fabd4d;
+
+$tablet: 768px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 		"mixins",
 		"base",
 		"components",
-		"syntax-highlighting",
-        "bootstrap.min",
-        "grayscale"
+		"syntax-highlighting"
 ;
