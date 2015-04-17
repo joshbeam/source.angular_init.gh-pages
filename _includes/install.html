@@ -1,40 +1,31 @@
-    <!-- Download Section -->
-    <section class="content-section text-center">
-        <div id="install" class="download-section">
-            <div class="container">
-                <div class="row">
-                    <h1>Install</h1>
-                    <div class="col-lg-8 col-lg-offset-2">
-<p>
-<strong>Add this line to your application's Gemfile:</strong>
+<section id="install">
+    <h1>Install</h1>
 
-<pre>gem 'ngi'</pre>
-</p>
+    <p class="big-paragraph">
+        You need <a href="https://www.ruby-lang.org/en/downloads/">Ruby 2.1</a> and <a href="https://rubygems.org/pages/download">RubyGems <span id="gem-couter"></span></a> (optional <a href="http://bundler.io/">Bundler</a>)
+    </p>
 
-<p>
-<strong>And then execute:</strong>
-<pre>$ bundle</pre>
-</p>
+{% highlight ruby %}
+# add to your app's Gemfile
 
-<p>
-<strong>Or install it yourself as:</strong>
+gem 'ngi'
+{% endhighlight %}
 
-<pre>$ gem install ngi</pre>  
-</p>
+{% highlight bash %}
+# then execute:
 
-<a href="https://rubygems.org/gems/ngi" class="btn btn-default btn-lg">RubyGems</a>
-<a href="https://github.com/joshbeam/angular_init" class="btn btn-default btn-lg">GitHub</a>
-<br><br>
-<a href="http://badge.fury.io/rb/ngi"><img src="https://badge.fury.io/rb/ngi.svg" alt="Gem Version" height="18"></a>
-                        
-                        <p>
-                            <br><br>
-                            <small>
-                                You need <a href="https://www.ruby-lang.org/en/downloads/">Ruby 2.1</a> and <a href="https://rubygems.org/pages/download">RubyGems <span id="gem-couter"></span></a> (optional <a href="http://bundler.io/">Bundler</a>)
-                            </small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+$ bundle
+{% endhighlight %}
+
+{% highlight bash %}
+# or install it yourself, as:
+
+$ gem install ngi
+{% endhighlight %}
+
+  <p class="big-paragraph">
+    <a href="https://github.com/joshbeam/angular_init">GitHub</a>
+  </p>
+
+    <a href="http://badge.fury.io/rb/ngi"><img src="https://badge.fury.io/rb/ngi.svg" alt="Gem Version" height="18"></a>
+</section>
