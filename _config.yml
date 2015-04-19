@@ -3,7 +3,7 @@ title: angular_init (ngi)
 email: frontendcollisionblog@gmail.com
 url: http://joshbeam.github.io
 baseurl: /angular_init
-#baseurl: 
+# baseurl: 
 description: "angular_init is the simple AngularJS template generator"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
